@@ -113,7 +113,7 @@ if __name__ == "__main__":
                 level_motor(dev)
 
     finally:
-        # Program kapanırken tüm kaynakları temizle
+        # Program kapanırken tüm kaynakları temizlenir
         print("Program sonlandırılıyor...")
         keep_running = False
         f_thread.join() # Thread'in bitmesini bekle
